@@ -106,6 +106,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 
 form .float-label-container {
@@ -139,14 +140,6 @@ form input[type="text"]:focus, form input[type="email"]:focus {
 form input[type="text"]:valid + label, form input[type="text"]:focus + label, form input[type="email"]:valid + label, form input[type="email"]:focus + label {
 	font-size: 1rem;
 	transform: translateY(0);
-}
-
-button {
-	margin-top: 10px;
-	padding: 10px;
-	color: white;
-	font-size: 1rem;
-	background-color: #3674f0;
 }
 
 /*# sourceMappingURL=main.css.map */
